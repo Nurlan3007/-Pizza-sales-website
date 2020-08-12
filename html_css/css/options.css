@@ -1,0 +1,35 @@
+.info{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding:30px 0;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.thead tr{
+	background: #7e96ec;
+}
+.thead th{
+	color:#ffffff;
+	padding:10px;	
+	text-align: left;
+}
+tbody{
+	text-align: left;
+	padding:10px;
+}
+tbody th{
+	padding:10px;
+	border-bottom: 1px solid #7e96ec;
+}
+form{
+	width: 100%;
+}
+ input{
+ 	width:300px;
+	padding:5px;
+	outline: none;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	border:0;
+	border:1px solid #7e96ec;
+	border-radius: 5px;
+}

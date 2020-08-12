@@ -1,0 +1,32 @@
+.users{
+	display: flex;
+	justify-content: center;
+	padding:30px 30px;
+}
+thead tr{
+	background: #7e96ec;
+}
+thead tr th{
+	color:#ffffff;
+	padding:10px;	
+	text-align: left;
+}
+tbody{
+	text-align: left;
+	padding:10px;
+}
+tbody th{
+	padding:10px;
+	border-bottom: 2px solid #7e96ec;
+}
+.key{
+	color:#ffff;
+	font-weight: 900;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+}
+tbody tr{
+	font-family: Comic Sans MS, Comic Sans, cursive;
+}
+tbody th{color:#000;}
+a,.ban,.delete{color:red;}
+.no_ban a{color:#7e96eca8;}

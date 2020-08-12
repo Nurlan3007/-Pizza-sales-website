@@ -1,0 +1,51 @@
+.combo{
+	display: flex;	
+	/*flex-direction: column;*/
+}
+
+.info_combo{
+	display: flex;
+	align-items: center;
+	/*justify-content: center;*/
+	flex-direction: column;
+	/*text-align: center;*/
+}
+
+
+.info_combo p{
+	line-height: 1.5;
+	margin-bottom: 10px;
+	color:#7e96eca8;
+}
+
+.form input{
+	border-radius: 0;
+	box-shadow: 5px 5px 5px gray;
+	cursor: pointer;
+	transition: background 0.7s;
+}
+
+.form input:hover{
+	background:#5c7ae4;
+}
+
+.combo_photo img{
+	width:300px;
+}
+
+.combo_text{
+	margin-top: 40px;
+}
+
+#read_more,#read_min{
+	border-radius: 0;
+	box-shadow: 5px 5px 5px gray;
+	cursor: pointer;
+	border:0;
+	background:0;
+	background:#5c7ae4;
+	color:#fff;
+	padding: 10px;
+	outline: none;
+}
+

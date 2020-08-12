@@ -1,0 +1,177 @@
+body{
+	user-select: none;
+}
+
+.serach{
+	padding-top: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.form{
+	position: relative;
+}
+
+.img2{
+	width:15px;
+	position: absolute;
+	left: 8px;
+    top:50%;
+    margin-top:-7px;
+}
+
+.form input{
+	width: 800px;
+	border:none;
+	background: #7e96ec;
+	border-radius: 20px;
+	padding: 10px 25px 10px 31px;
+	font-size: 19px;
+	color:#fff;
+	outline: none;
+}
+
+input::placeholder{
+	color:#fff;
+	font-size: 19px;
+	font-family: sans-serif;
+}
+
+/*MENU$###################################################*/
+
+.menu{
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	padding-top:50px;
+	flex-wrap: wrap;
+}
+
+.menu_value{
+	margin-right: 50px;
+	width: 100%;
+	max-width: 223px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+
+}
+
+.menu_value .img img{
+	width:100%;
+	max-width: 200px;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	flex-wrap: wrap;
+
+}
+
+.paralax{
+	margin-top:30px;
+	background-image: url('https://pos.zenge.kz/assets/organisations/150/background_7257.jpg');
+	min-height: 500px;
+    /*width: 1400px;*/
+	background-attachment: fixed;
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.name_price{
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+}
+
+.function{
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-around;
+	color:#ff9933;
+}
+.function h3 a{
+	color:#ff9933;
+	border:1px solid #ff9933;
+	border-radius: 10px;
+	padding:5px;
+	font-size: 14px;
+	font-weight: 0;
+}
+
+.function .choose{
+	padding:5px 20px 5px 20px;
+	font-weight: 900;
+	font-family: Bradley Hand, cursive;
+}
+
+.basket{
+	position: relative;
+}
+
+.function button{
+	border:0;
+	background: 0;
+	color:#ff9933;
+	border:1px solid #ff9933;
+	border-radius: 10px;
+	padding:5px 25px 5px 5px;
+	font-size: 14px;
+	font-weight: 400;
+	cursor: pointer;
+	outline: none;
+}
+
+
+
+.function .basket_img{
+	width: 15px;
+	position: absolute;
+	right: 4px;
+    top:50%;
+    margin-top:-7px;
+}
+
+
+.text{		
+	width: 300px;
+	color:#7e96eca8;
+	font-size: 14px;
+	line-height: 1.5;
+	padding: 10px 5px;
+}
+
+@media(max-width: 1020px){
+    .donnot_seeMaxw_1{
+        display: none;
+    }
+    .serach input{
+    	width: 700px;
+
+    }
+    
+}
+
+@media(max-width: 763px){
+    .serach input{
+    	width: 500px;
+
+    }
+}
+
+@media(max-width: 550px){
+    .menu{
+    	display: flex;
+    	align-items: center;
+    	justify-content: center;
+    }
+}
+
+@media(max-width: 543px){
+	.serach input{
+		width: 400px;
+	}
+}

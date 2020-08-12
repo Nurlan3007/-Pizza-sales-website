@@ -1,0 +1,20 @@
+.orders{
+	width: 300px;
+	text-align: left;
+	/*box-shadow: 4px 4px 4px gray;*/
+	padding: 30px;
+}
+.menu{
+
+	margin-right: 30px;
+	flex-wrap: wrap;
+}
+.orders h2 span{
+	color:#0071f0;
+}
+.orders h2{
+	width: 300px;
+	word-wrap: break-word; /* Перенос слов */ 
+	margin-left:30px;
+}
+		
