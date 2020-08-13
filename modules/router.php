@@ -6,15 +6,12 @@ class Router
 
 	function __construct($uri)
 	{
-		$this->uri = parse_url($uri, PHP_URL_PATH);
+		$this -> uri = parse_url($uri, PHP_URL_PATH);
 	}
 
 	public function get($get,$action){
 		$route = new Route($get,$action);
-		// print_e($route);
 		$this -> routes['GET'][] = $route;
-		// print_e($routes);
-
 	}
 
 	public function post($post,$action){
@@ -27,9 +24,7 @@ class Router
 			echo ':(';
 			return false;
 		}
-		// echo $_SERVER['REQUEST_METHOD'];
 		foreach($this->routes[$_SERVER['REQUEST_METHOD']] as $route){
-			// print_e($route);
 			if($route->match($this->uri)){
 				$route->call();
 				return True;
