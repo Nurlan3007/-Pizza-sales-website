@@ -28,17 +28,14 @@ if($select_users['role_id'] == 3 or $select_users['role_id'] == '' ){
 	");
 	$select_menu -> bind_param('i',$category_id);
 	$select_menu -> execute();
-}	
+}
+
 $result = $select_menu -> get_result();
 $select_menu = $result -> fetch_all(MYSQLI_ASSOC);
 
-
-
-
-
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
 	<title>Pizza.nu</title>
